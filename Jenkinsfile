@@ -5,5 +5,9 @@ pipeline {
         steps { 
         }
       }
+        stage("nova") {
+        }
+   
+   
     }
 }
