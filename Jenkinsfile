@@ -3,9 +3,20 @@ pipeline {
     stages {
       stage("build") {
         steps { 
+            echo 'building apps ...'
         }
       }
-        stage("nova") {
+        
+          stage ("test") {
+              steps {
+              }
+              
+          }
+          
+      
+        stage("deploy") {
+            steps {
+            }
         }
    
    
