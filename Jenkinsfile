@@ -9,6 +9,7 @@ pipeline {
         
           stage ("test") {
               steps {
+                  echo 'testing apps ...'
               }
               
           }
@@ -16,6 +17,7 @@ pipeline {
       
         stage("deploy") {
             steps {
+                echo 'deploy apps ...'
             }
         }
    
